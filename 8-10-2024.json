@@ -1,0 +1,94 @@
+{
+    "sen_info": {
+        "main_info": {
+            "_comentario": "Las fechas deben expresarse con guiones",
+            "fecha": "08-10-2024",
+            "dia": "martes",
+            "url": "http://www.cubadebate.cu/noticias/2024/10/08/union-electrica-se-pronostica-una-afectacion-de-1155-mw-en-el-pico-nocturno-de-martes/"
+        },
+        "estimacion": {
+            "horario": "noche",
+            "disponibilidad": 2265,
+            "demanda_max": 3350,
+            "deficit": 1085,
+            "pronostico": {
+                "afectacion":1155
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2100,
+                "demanda": 2565,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 750
+                }
+            }
+        },
+        "termoelectricas": {
+            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
+            "lim_gen_term": 553,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 5 y 8",
+                        "CTE": "Mariel"
+                    },
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Renté"
+                    }
+                ],
+                "no_servicio": [
+                    {
+                        "cantidad": 38,
+                        "tipo": "Centrales de generacion distribuida",
+                        "razon": "Falta de combustible",
+                        "afectacion": 265
+                    }
+                ]
+            }
+        },
+        "pico": {
+            "estimacion": [{
+                "desc": "entrada de la unidad 5 de la CTE Mariel",
+                "razon": "se encuentra en proceso de arranque",
+                "cantidad_mw": 70
+            },
+            {
+              "desc": "entrada de la patana de Regla",
+                "razon": "se encuentra en proceso de arranque",
+                "cantidad_mw": 45  
+            },
+            {
+                "desc": "entrada de la patana de Santiao de Cuba",
+                "razon": "se encuentra en proceso de arranque",
+                "cantidad_mw": 50
+            }
+        ],
+        "max_afect_dia": {
+            "cantidad_mw": 1363,
+            "hora": "20:20",
+            "desc": null
+        },
+        "dia_anterior": {
+            "desc": "se afecto el servicio por deficit de capacidad de generacion",
+            "horas": 24,
+            "hora_rest": null
+        }
+    }
+}
+
+

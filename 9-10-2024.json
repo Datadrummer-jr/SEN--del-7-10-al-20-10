@@ -1,0 +1,80 @@
+{
+    "sen_info": {
+        "main_info": {
+            "_comentario": "Las fechas deben expresarse con guiones",
+            "fecha": "09-10-2024",
+            "dia": "miercoles",
+            "url": "http://www.cubadebate.cu/noticias/2024/10/09/union-electrica-pronostica-afectacion-de-1140-mw-en-el-horario-pico-nocturno"
+        },
+        "estimacion": {
+            "horario": "noche",
+            "disponibilidad": 2280,
+            "demanda_max": 3350,
+            "deficit": 1070,
+            "pronostico": 1140
+        }
+        }, 
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2280,
+                "demanda": 2450,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": null
+                }
+            }
+        },
+        "termoelectricas": {
+            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
+            "lim_gen_term": 550,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 8",
+                        "CTE": "Mariel"
+                    },
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Rente"
+                    }
+                ],
+                "no_servicio": [
+                    {
+                        "cantidad": 35,
+                        "tipo": "Centrales de generacion distribuida",
+                        "razon": "Falta de combustible",
+                        "afectacion": 187
+                    }
+                ]
+            }
+        },
+        "pico": {
+            "estimacion": {
+                "desc": null,
+                "razon": null,
+                "cantidad_mw": null
+            }
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 1140,
+            "hora": "20:00",
+            "desc": null
+        },
+        "dia_anterior": {
+            "desc": "se afecto el servicio por deficit de capacidad de generacion",
+            "horas": 24,
+            "hora_rest": null
+        }
+    }

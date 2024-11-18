@@ -1,0 +1,84 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "10-10-2024",
+            "dia": "jueves",
+            "url": "https://www.cubadebate.cu/noticias/2024/10/10/la-union-electrica-pronostica-una-afectacion-de-1235-mw-en-el-pico-nocturno-de-este-jueves/"
+        },
+        "_comentario": "Toda esta informacion se expresa en MW",
+        "estimacion": {
+            "horario": "noche",
+            "disponibilidad": 2185,
+            "demanda_max": 3350,
+            "deficit": 1165,
+            "pronostico": {
+                "afectacion": 1235
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2094,
+                "demanda": 2400,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 600
+                }
+            }
+        },
+        "termoelectricas": {
+            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
+            "lim_gen_term": 586,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre":"Unidad 5",
+                        "CTE":"Renté"
+                    }
+                ],
+                "no_servicio": [
+                    {
+                        "cantidad": 37,
+                        "tipo": "Centrales de generacion distribuida",
+                        "razon": "Falta de combustible",
+                        "afectacion": 370
+                    }
+                ]
+            }
+        },
+        "pico": {
+            "estimacion": [{
+                "desc": "entrada de la unidad 8 de CTE Mariel",
+                "razon": null,
+                "cantidad_mw": 55
+            },
+            {
+                "desc":"entrada de motores de la patana de Regla",
+                "razon":null,
+                "cantidad_mw":36
+            }
+            ]
+        },
+            "max_afect_dia": {
+                "cantidad_mw": 1269,
+                "hora": "19:40",
+                "desc": "conincidiente con el horario pico y se afectaron 35 mw en la zona occidental por mal tiempo para un total afectado de 1304 mw"
+            },
+            "dia_anterior": {
+                "desc": "se afecto el servicio por deficit de capacidad de generacion",
+                "horas": 24,
+                "hora_rest": null
+            }
+        }
+    }
