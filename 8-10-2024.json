@@ -77,7 +77,8 @@
                 "razon": "se encuentra en proceso de arranque",
                 "cantidad_mw": 50
             }
-        ],
+        ]
+        },
         "max_afect_dia": {
             "cantidad_mw": 1363,
             "hora": "20:20",
