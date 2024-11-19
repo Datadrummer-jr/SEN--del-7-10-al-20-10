@@ -1,38 +1,38 @@
 {
     "sen_info": {
         "main_info": {
-            "fecha": "11-10-2024",
+            "fecha": "13-10-2024",
             "dia": "Lunes",
             "url": "http://www.cubadebate.cu/noticias/2024/10/11/union-electrica-pronostica-una-afectacion-de-1245-mw-en-el-pico-nocturno-de-este-viernes/"
         },
         "estimacion": {
             "horario": "noche",
-            "disponibilidad": 2175,
-            "demanda_max": 3350,
-            "deficit": 1175,
+            "disponibilidad": 2070,
+            "demanda_max": 3300,
+            "deficit": 1230,
             "pronostico": {
-                "afectacion": 1245
+                "afectacion": 1300
             }
         },
         "info_horarios": {
             "mañana": {
-                "disponibilidad": 1910,
-                "demanda": 2520,
+                "disponibilidad": 1900,
+                "demanda": 2580,
                 "totalidad": true
             },
             "mediodia": {
                 "pronostico": {
-                    "afectacion": 900
+                    "afectacion": 980
                 }
             }
         },
         "termoelectricas": {
-            "lim_gen_term": 604,
+            "lim_gen_term": 540,
             "fuera": {
                 "averias": [
                     {
-                        "nombre": "Unidad 8",
-                        "CTE": "Mariel"
+                        "nombre": "Unidad 5",
+                        "CTE": "Nuevitas"
                     },
                     {
                         "nombre": "Unidad 2",
@@ -51,36 +51,31 @@
                 ],
                 "no_servicio": [
                     {
-                        "cantidad": 43,
+                        "cantidad": 46,
                         "tipo": "Centrales de generacion distribuida",
                         "razon": "Falta de combustible",
-                        "afectacion": 550
+                        "afectacion": 558
                     }
                 ]
             }
         },
         "pico": {
-            "estimacion": [{
+            "estimacion": {
                 "desc": "recuperación decentrales distribuidas",
-                "razon": null,
-                "cantidad_mw": 100
-            },
-            {
-                "desc": "entrada de motores de la patana de Melones ",
-                "razon": null,
-                "cantidad_mw": 120
+                "razon": "Falta de combustible",
+                "cantidad_mw": 270
             }
-        ]
-        },
+            },
+        
         "max_afect_dia": {
-            "cantidad_mw": 1153,
-            "hora": "19:50",
+            "cantidad_mw": 1278,
+            "hora": "19:30",
             "desc": "coincidente con la hora pico"
         },
         "dia_anterior": {
             "desc": "se afecto el servicio por deficit de capacidad de generacion",
-            "horas": 24,
+            "horas": null,
             "hora_rest": null
         }
-    }
+}
 }
