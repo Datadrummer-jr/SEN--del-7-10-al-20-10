@@ -1,0 +1,92 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "16-10-2024",
+            "dia": "miercoles",
+            "url": "http://www.cubadebate.cu/noticias/2024/10/16/une-pronostica-una-afectacion-de-1445-mw-para-el-horario-pico-nocturno/"
+        },
+        "estimacion": {
+            "horario": "noche",
+            "disponibilidad": 2005,
+            "demanda_max": 3380,
+            "deficit": 1375,
+            "pronostico": {
+                "afectacion": 1445
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 1780,
+                "demanda": 2660,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 1100
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 407,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Nuevitas"
+                    },
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    },
+                    {
+                        "nombre": "Unidad 1",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 3",
+                        "CTE": "Rente"
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Rente"
+                    },
+                    {
+                        "nombre": "Unidad 4",
+                        "CTE": "Cienfuegos"
+                    }
+                ],
+                "no_servicio": [
+                    {
+                        "cantidad": 37,
+                        "tipo": "Centrales de generacion distribuida",
+                        "razon": "Falta de combustible",
+                        "afectacion": 464
+                    }
+                ]
+            }
+        },
+        "pico": {
+            "estimacion": {
+                "desc": "entrada de unidades de generación térmica",
+                "razon": null,
+                "cantidad_mw": 225
+            }
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 1641,
+            "hora": "19:10",
+            "desc": "no coincidente con la hora pico"
+        },
+        "dia_anterior": {
+            "desc": "se afecto el servicio por deficit de capacidad de generacion",
+            "horas": 24,
+            "hora_rest": null
+        }
+    }
+}

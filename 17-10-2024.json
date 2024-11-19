@@ -1,0 +1,92 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "17-10-2024",
+            "dia": "jueves",
+            "url": "http://www.cubadebate.cu/noticias/2024/10/17/une-preve-afectaciones-durante-horario-diurno-y-afectacion-de-1-678-mw-en-pico-nocturno-este-jueves/"
+        },
+        "estimacion": {
+            "horario": "noche",
+            "disponibilidad": 1692,
+            "demanda_max": 3300,
+            "deficit": 1608,
+            "pronostico": {
+                "afectacion": 1678
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 1600,
+                "demanda": 2600,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 1400
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term":441,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Nuevitas"
+                    },
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    },
+                    {
+                        "nombre": "Unidad 4",
+                        "CTE": "Energas Varadero"
+                    },
+                    {
+                        "nombre": "Unidad 3",
+                        "CTE": "Renté"
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Rente"
+                    },
+                    {
+                        "nombre": "Unidad 4",
+                        "CTE": "Cienfuegos"
+                    }
+                ],
+                "no_servicio": [
+                    {
+                        "cantidad": 50,
+                        "tipo": "Centrales de generacion distribuida",
+                        "razon": "Falta de combustible",
+                        "afectacion": 799
+                    }
+                ]
+            }
+        },
+        "pico": {
+            "estimacion": {
+                "desc": "entrada de unidades de generación térmica",
+                "razon": null,
+                "cantidad_mw": 92
+            }
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 1589,
+            "hora": "19:20",
+            "desc": "coincidente con la hora pico, superor a lo planifiado por la no entrada de la Unidad 5 de la CTE Diez de Octubre y la Undad 3 de la CTE Antonio Maceo "
+        },
+        "dia_anterior": {
+            "desc": "se afecto el servicio por deficit de capacidad de generacion",
+            "horas": 24,
+            "hora_rest": null
+        }
+    }
+}
