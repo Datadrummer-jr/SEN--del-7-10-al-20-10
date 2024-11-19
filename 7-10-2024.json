@@ -16,13 +16,13 @@
         },
         "info_horarios": {
             "mañana": {
-                "disponibilidad": null,
-                "demanda": null,
+                "disponibilidad": 2140,
+                "demanda": 2400,
                 "totalidad": true
             },
             "mediodia": {
                 "pronostico": {
-                    "afectacion": null
+                    "afectacion": 700
                 }
             }
         },
