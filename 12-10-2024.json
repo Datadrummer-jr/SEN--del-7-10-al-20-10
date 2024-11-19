@@ -1,0 +1,76 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "12-10-2024",
+            "dia": "sabado",
+            "url": "http://www.cubadebate.cu/noticias/2024/10/12/union-electrica-estima-afectacion-de-1-220-mw-en-horario-pico-este-sabado/"
+        },
+        "estimacion": {
+            "horario": "noche",
+            "disponibilidad": 2240,
+            "demanda_max": 3400,
+            "deficit": 1150,
+            "pronostico": {
+                "afectacion": 1220
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2250,
+                "demanda": 2260,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 600
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 635,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Renté"
+                    }
+                ],
+                "no_servicio": [
+                    {
+                        "cantidad": 44,
+                        "tipo": "Centrales de generacion distribuida",
+                        "razon": "Falta de combustible",
+                        "afectacion": 350
+                    }
+                ]
+            }
+        },
+        "pico": {
+            "estimacion": {
+                "desc": null,
+                "razon": null,
+                "cantidad_mw": null
+            }
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 1467,
+            "hora": "19:50",
+            "desc": "coincidente con la hora pico"
+        },
+        "dia_anterior": {
+            "desc": "se afecto el servicio por deficit de capacidad de generacion",
+            "horas": 24,
+            "hora_rest": "3:42"
+        }
+    }
+}

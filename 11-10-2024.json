@@ -1,0 +1,86 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "11-10-2024",
+            "dia": "Lunes",
+            "url": "http://www.cubadebate.cu/noticias/2024/10/11/union-electrica-pronostica-una-afectacion-de-1245-mw-en-el-pico-nocturno-de-este-viernes/"
+        },
+        "estimacion": {
+            "horario": "noche",
+            "disponibilidad": 2175,
+            "demanda_max": 3350,
+            "deficit": 1175,
+            "pronostico": {
+                "afectacion": 1245
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 1910,
+                "demanda": 2520,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 900
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 604,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 8",
+                        "CTE": "Mariel"
+                    },
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Rente"
+                    }
+                ],
+                "no_servicio": [
+                    {
+                        "cantidad": 43,
+                        "tipo": "Centrales de generacion distribuida",
+                        "razon": "Falta de combustible",
+                        "afectacion": 550
+                    }
+                ]
+            }
+        },
+        "pico": {
+            "estimacion": [{
+                "desc": "recuperación decentrales distribuidas",
+                "razon": null,
+                "cantidad_mw": 100
+            },
+            {
+                "desc": "entrada de motores de la patana de Melones ",
+                "razon": null,
+                "cantidad_mw": 120
+            }
+        ]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 1153,
+            "hora": "19:50",
+            "desc": "coincidente con la hora pico"
+        },
+        "dia_anterior": {
+            "desc": "se afecto el servicio por deficit de capacidad de generacion",
+            "horas": 24,
+            "hora_rest": null
+        }
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "14-10-2024",
+            "dia": "lunes",
+            "url": "http://www.cubadebate.cu/noticias/2024/10/14/afectacion-electrica-para-el-pico-nocturno-de-este-lunes-superara-los-1300-mw-informa-la-une/"
+        },
+        "estimacion": {
+            "horario": "noche",
+            "disponibilidad": 2060,
+            "demanda_max": 3360,
+            "deficit": 1300,
+            "pronostico": {
+                "afectacion": 1370
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 1950,
+                "demanda": 2600,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 950
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 366,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Nuevitas"
+                    },
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    },
+                    {
+                        "nombre": "Unidad  3",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 4",
+                        "CTE": "Cienfuegos"
+                    },
+                    {
+                        "nombre": "Unidad  3",
+                        "CTE": "Rente"
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Rente"
+                    }
+                ],
+                "no_servicio": [
+                    {
+                        "cantidad": 37,
+                        "tipo": "Centrales de generacion distribuida",
+                        "razon": "Falta de combustible",
+                        "afectacion": 402
+                    }
+                ]
+            }
+        },
+        "pico": {
+            "estimacion": {
+                "desc": "entrada de motores de generacion distribuida",
+                "razon": "se encuentran fuera por combustible",
+                "cantidad_mw": 60
+            }
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 1346,
+            "hora": "18:10",
+            "desc": "no coincidente con la hora pico"
+        },
+        "dia_anterior": {
+            "desc": "se afecto el servicio por deficit de capacidad de generacion",
+            "horas": 24,
+            "hora_rest": null
+        }
+    }
+}
