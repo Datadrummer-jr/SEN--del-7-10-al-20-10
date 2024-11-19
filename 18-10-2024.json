@@ -1,0 +1,92 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "18-10-2024",
+            "dia": "viernes",
+            "url": "www.cubadebate.cu/noticias/2024/10/18/une-preve-una-afectacion-de-mas-de-1500-mw-para-este-viernes/"
+        },
+        "estimacion": {
+            "horario": "noche",
+            "disponibilidad": 1705,
+            "demanda_max": 3200,
+            "deficit": 1495,
+            "pronostico": {
+                "afectacion": 1565
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 1390,
+                "demanda": 2500,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 1600
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 439,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Nuevitas"
+                    },
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    },
+                    {
+                        "nombre": "Unidad 1",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 3 y 6",
+                        "CTE": "Rente"
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Rente"
+                    },
+                    {
+                        "nombre": "Unidad 4",
+                        "CTE": "Cienfuegos"
+                    }
+                ],
+                "no_servicio": [
+                    {
+                        "cantidad": 54,
+                        "tipo": "Centrales de generacion distribuida",
+                        "razon": "Falta de combustible",
+                        "afectacion": 909
+                    }
+                ]
+            }
+        },
+        "pico": {
+            "estimacion": {
+                "desc": "entrada de unidades de enedracón térmica",
+                "razon": null,
+                "cantidad_mw": 215
+              }
+         },
+        "max_afect_dia": {
+            "cantidad_mw": 1642,
+            "hora": "19:20",
+            "desc": "coincidente con la hora pico"
+        },
+        "dia_anterior": {
+            "desc": "se afecto el servicio por deficit de capacidad de generacion",
+            "horas": 24,
+            "hora_rest": null
+        }
+    }
+}
