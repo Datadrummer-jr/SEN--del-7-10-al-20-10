@@ -1,0 +1,72 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "20-10-2024",
+            "dia": "domingo",
+            "url": "www.cubadebate.cu/noticias/2024/10/20/cuba-actualizacion-permanente-sobre-el-restablecimiento-del-sistema-electrico/"
+        },
+        "estimacion": {
+            "horario": null,
+            "disponibilidad": null,
+            "demanda_max": null,
+            "deficit": null,
+            "pronostico": {
+                "afectacion": null
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": null,
+                "demanda": null,
+                "totalidad": false
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": null
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 439,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": true,
+                        "CTE": true
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Cienfuegos"
+                    }
+                ],
+                "no_servicio": [
+                    {
+                        "cantidad": null,
+                        "tipo": null,
+                        "razon": null,
+                        "afectacion": null
+                    }
+                ]
+            }
+        },
+        "pico": {
+            "estimacion": {
+                "desc": null,
+                "razon": null,
+                "cantidad_mw": null
+              }
+         },
+        "max_afect_dia": {
+            "cantidad_mw": null,
+            "hora": null,
+            "desc": null
+        },
+        "dia_anterior": {
+            "desc": null,
+            "horas": null,
+            "hora_rest": null
+        }
+    }
+}
