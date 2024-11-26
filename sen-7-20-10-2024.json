@@ -17,13 +17,13 @@
             },
             "info_horarios": {
                 "mañana": {
-                    "disponibilidad": null,
-                    "demanda": null,
+                    "disponibilidad": 2450,
+                    "demanda": 380,
                     "totalidad": true
                 },
                 "mediodia": {
                     "pronostico": {
-                        "afectacion": null
+                        "afectacion": 700
                     }
                 }
             },
@@ -175,6 +175,88 @@
     {
         "sen_info": {
             "main_info": {
+                "_comentario": "Las fechas deben expresarse con guiones",
+                "fecha": "09-10-2024",
+                "dia": "miercoles",
+                "url": "http://www.cubadebate.cu/noticias/2024/10/09/union-electrica-pronostica-afectacion-de-1140-mw-en-el-horario-pico-nocturno"
+            },
+            "estimacion": {
+                "horario": "noche",
+                "disponibilidad": 2280,
+                "demanda_max": 3350,
+                "deficit": 1070,
+                "pronostico": {
+                    "afectacion": 1140
+                }
+            }, 
+            "info_horarios": {
+                "mañana": {
+                    "disponibilidad": 2280,
+                    "demanda": 2450,
+                    "totalidad": true
+                },
+                "mediodia": {
+                    "pronostico": {
+                        "afectacion": 550
+                    }
+                }
+            },
+            "termoelectricas": {
+                "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
+                "lim_gen_term": 550,
+                "fuera": {
+                    "averias": [
+                        {
+                            "nombre": "Unidad 8",
+                            "CTE": "Mariel"
+                        },
+                        {
+                            "nombre": "Unidad 2",
+                            "CTE": "Felton"
+                        }
+                    ],
+                    "mantenimiento":[
+                        {
+                            "nombre": "Unidad 2",
+                            "CTE": "Santa Cruz"
+                        },
+                        {
+                            "nombre": "Unidad 5",
+                            "CTE": "Rente"
+                        }
+                    ],
+                    "no_servicio": [
+                        {
+                            "cantidad": 35,
+                            "tipo": "Centrales de generacion distribuida",
+                            "razon": "Falta de combustible",
+                            "afectacion": 187
+                        }
+                    ]
+                }
+            },
+            "pico": {
+                "estimacion": {
+                    "desc": null,
+                    "razon": null,
+                    "cantidad_mw": null
+                }
+            },
+            "max_afect_dia": {
+                "cantidad_mw": 1140,
+                "hora": "20:00",
+                "desc": null
+            },
+            "dia_anterior": {
+                "desc": "se afecto el servicio por deficit de capacidad de generacion",
+                "horas": 24,
+                "hora_rest": null
+            }
+        }
+    },
+    {
+        "sen_info": {
+            "main_info": {
                 "fecha": "10-10-2024",
                 "dia": "jueves",
                 "url": "https://www.cubadebate.cu/noticias/2024/10/10/la-union-electrica-pronostica-una-afectacion-de-1235-mw-en-el-pico-nocturno-de-este-jueves/"
@@ -254,6 +336,618 @@
                     "hora_rest": null
                 }
             }
+        },
+        {
+            "sen_info": {
+                "main_info": {
+                    "fecha": "11-10-2024",
+                    "dia": "Lunes",
+                    "url": "http://www.cubadebate.cu/noticias/2024/10/11/union-electrica-pronostica-una-afectacion-de-1245-mw-en-el-pico-nocturno-de-este-viernes/"
+                },
+                "estimacion": {
+                    "horario": "noche",
+                    "disponibilidad": 2175,
+                    "demanda_max": 3350,
+                    "deficit": 1175,
+                    "pronostico": {
+                        "afectacion": 1245
+                    }
+                },
+                "info_horarios": {
+                    "mañana": {
+                        "disponibilidad": 1910,
+                        "demanda": 2520,
+                        "totalidad": true
+                    },
+                    "mediodia": {
+                        "pronostico": {
+                            "afectacion": 900
+                        }
+                    }
+                },
+                "termoelectricas": {
+                    "lim_gen_term": 604,
+                    "fuera": {
+                        "averias": [
+                            {
+                                "nombre": "Unidad 8",
+                                "CTE": "Mariel"
+                            },
+                            {
+                                "nombre": "Unidad 2",
+                                "CTE": "Felton"
+                            }
+                        ],
+                        "mantenimiento":[
+                            {
+                                "nombre": "Unidad 2",
+                                "CTE": "Santa Cruz"
+                            },
+                            {
+                                "nombre": "Unidad 5",
+                                "CTE": "Rente"
+                            }
+                        ],
+                        "no_servicio": [
+                            {
+                                "cantidad": 43,
+                                "tipo": "Centrales de generacion distribuida",
+                                "razon": "Falta de combustible",
+                                "afectacion": 550
+                            }
+                        ]
+                    }
+                },
+                "pico": {
+                    "estimacion": [{
+                        "desc": "recuperación decentrales distribuidas",
+                        "razon": null,
+                        "cantidad_mw": 100
+                    },
+                    {
+                        "desc": "entrada de motores de la patana de Melones ",
+                        "razon": null,
+                        "cantidad_mw": 120
+                    }
+                ]
+                },
+                "max_afect_dia": {
+                    "cantidad_mw": 1153,
+                    "hora": "19:50",
+                    "desc": "coincidente con la hora pico"
+                },
+                "dia_anterior": {
+                    "desc": "se afecto el servicio por deficit de capacidad de generacion",
+                    "horas": 24,
+                    "hora_rest": null
+                }
+            }
+        },
+        {
+            "sen_info": {
+                "main_info": {
+                    "fecha": "12-10-2024",
+                    "dia": "sabado",
+                    "url": " http://www.cubadebate.cu/noticias/2024/10/12/union-electrica-estima-afectacion-de-1-220-mw-en-horario-pico-este-sabado/"
+                },
+                "estimacion": {
+                    "horario": "noche",
+                    "disponibilidad": 2240,
+                    "demanda_max": 3400,
+                    "deficit": 1150,
+                    "pronostico": {
+                        "afectacion": 1220
+                    }
+                },
+                "info_horarios": {
+                    "mañana": {
+                        "disponibilidad": 2250,
+                        "demanda": 2260,
+                        "totalidad": true
+                    },
+                    "mediodia": {
+                        "pronostico": {
+                            "afectacion": 600
+                        }
+                    }
+                },
+                "termoelectricas": {
+                    "lim_gen_term": 635,
+                    "fuera": {
+                        "averias": [
+                            {
+                                "nombre": "Unidad 2",
+                                "CTE": "Felton"
+                            }
+                        ],
+                        "mantenimiento":[
+                            {
+                                "nombre": "Unidad 2",
+                                "CTE": "Santa Cruz"
+                            },
+                            {
+                                "nombre": "Unidad 5",
+                                "CTE": "Renté"
+                            }
+                        ],
+                        "no_servicio": [
+                            {
+                                "cantidad": 44,
+                                "tipo": "Centrales de generacion distribuida",
+                                "razon": "Falta de combustible",
+                                "afectacion": 350
+                            }
+                        ]
+                    }
+                },
+                "pico": {
+                    "estimacion": {
+                        "desc": null,
+                        "razon": null,
+                        "cantidad_mw": null
+                    }
+                },
+                "max_afect_dia": {
+                    "cantidad_mw": 1467,
+                    "hora": "19:50",
+                    "desc": "coincidente con la hora pico"
+                },
+                "dia_anterior": {
+                    "desc": "se afecto el servicio por deficit de capacidad de generacion",
+                    "horas": 24,
+                    "hora_rest": "3:42"
+                }
+            }
+        },
+        {
+            "sen_info": {
+                "main_info": {
+                    "fecha": "13-10-2024",
+                    "dia": "Lunes",
+                    "url": "http://www.cubadebate.cu/noticias/2024/10/11/union-electrica-pronostica-una-afectacion-de-1245-mw-en-el-pico-nocturno-de-este-viernes/"
+                },
+                "estimacion": {
+                    "horario": "noche",
+                    "disponibilidad": 2070,
+                    "demanda_max": 3300,
+                    "deficit": 1230,
+                    "pronostico": {
+                        "afectacion": 1300
+                    }
+                },
+                "info_horarios": {
+                    "mañana": {
+                        "disponibilidad": 1900,
+                        "demanda": 2580,
+                        "totalidad": true
+                    },
+                    "mediodia": {
+                        "pronostico": {
+                            "afectacion": 980
+                        }
+                    }
+                },
+                "termoelectricas": {
+                    "lim_gen_term": 540,
+                    "fuera": {
+                        "averias": [
+                            {
+                                "nombre": "Unidad 5",
+                                "CTE": "Nuevitas"
+                            },
+                            {
+                                "nombre": "Unidad 2",
+                                "CTE": "Felton"
+                            }
+                        ],
+                        "mantenimiento":[
+                            {
+                                "nombre": "Unidad 2",
+                                "CTE": "Santa Cruz"
+                            },
+                            {
+                                "nombre": "Unidad 5",
+                                "CTE": "Rente"
+                            }
+                        ],
+                        "no_servicio": [
+                            {
+                                "cantidad": 46,
+                                "tipo": "Centrales de generacion distribuida",
+                                "razon": "Falta de combustible",
+                                "afectacion": 558
+                            }
+                        ]
+                    }
+                },
+                "pico": {
+                    "estimacion": {
+                        "desc": "recuperación decentrales distribuidas",
+                        "razon": "Falta de combustible",
+                        "cantidad_mw": 270
+                    }
+                    },
+                
+                "max_afect_dia": {
+                    "cantidad_mw": 1278,
+                    "hora": "19:30",
+                    "desc": "coincidente con la hora pico"
+                },
+                "dia_anterior": {
+                    "desc": "se afecto el servicio por deficit de capacidad de generacion",
+                    "horas": null,
+                    "hora_rest": null
+                }
+             }
+        },
+        {
+            "sen_info": {
+                "main_info": {
+                    "fecha": "14-10-2024",
+                    "dia": "lunes",
+                    "url": "http://www.cubadebate.cu/noticias/2024/10/14/afectacion-electrica-para-el-pico-nocturno-de-este-lunes-superara-los-1300-mw-informa-la-une/"
+                },
+                "estimacion": {
+                    "horario": "noche",
+                    "disponibilidad": 2060,
+                    "demanda_max": 3360,
+                    "deficit": 1300,
+                    "pronostico": {
+                        "afectacion": 1370
+                    }
+                },
+                "info_horarios": {
+                    "mañana": {
+                        "disponibilidad": 1950,
+                        "demanda": 2600,
+                        "totalidad": true
+                    },
+                    "mediodia": {
+                        "pronostico": {
+                            "afectacion": 950
+                        }
+                    }
+                },
+                "termoelectricas": {
+                    "lim_gen_term": 366,
+                    "fuera": {
+                        "averias": [
+                            {
+                                "nombre": "Unidad 5",
+                                "CTE": "Nuevitas"
+                            },
+                            {
+                                "nombre": "Unidad 2",
+                                "CTE": "Felton"
+                            },
+                            {
+                                "nombre": "Unidad  3",
+                                "CTE": "Santa Cruz"
+                            },
+                            {
+                                "nombre": "Unidad 4",
+                                "CTE": "Cienfuegos"
+                            },
+                            {
+                                "nombre": "Unidad  3",
+                                "CTE": "Rente"
+                            }
+                        ],
+                        "mantenimiento":[
+                            {
+                                "nombre": "Unidad 2",
+                                "CTE": "Santa Cruz"
+                            },
+                            {
+                                "nombre": "Unidad 5",
+                                "CTE": "Rente"
+                            }
+                        ],
+                        "no_servicio": [
+                            {
+                                "cantidad": 37,
+                                "tipo": "Centrales de generacion distribuida",
+                                "razon": "Falta de combustible",
+                                "afectacion": 402
+                            }
+                        ]
+                    }
+                },
+                "pico": {
+                    "estimacion": {
+                        "desc": "entrada de motores de generacion distribuida",
+                        "razon": "se encuentran fuera por combustible",
+                        "cantidad_mw": 60
+                    }
+                },
+                "max_afect_dia": {
+                    "cantidad_mw": 1346,
+                    "hora": "18:10",
+                    "desc": "no coincidente con la hora pico"
+                },
+                "dia_anterior": {
+                    "desc": "se afecto el servicio por deficit de capacidad de generacion",
+                    "horas": 24,
+                    "hora_rest": null
+                }
+            }
+        },
+        {
+            "sen_info": {
+                "main_info": {
+                    "fecha": "15-10-2024",
+                    "dia": "martes",
+                    "url": "http://www.cubadebate.cu/noticias/2024/10/15/une-se-pronostica-una-afectacion-de-1378-mw-en-el-horario-pico/"
+                },
+                "estimacion": {
+                    "horario": "noche",
+                    "disponibilidad": 1992,
+                    "demanda_max": 3300,
+                    "deficit": 1308,
+                    "pronostico": {
+                        "afectacion": 1378
+                    }
+                },
+                "info_horarios": {
+                    "mañana": {
+                        "disponibilidad": 1830,
+                        "demanda": 2560,
+                        "totalidad": true
+                    },
+                    "mediodia": {
+                        "pronostico": {
+                            "afectacion": 950
+                        }
+                    }
+                },
+                "termoelectricas": {
+                    "lim_gen_term": 419,
+                    "fuera": {
+                        "averias": [
+                            {
+                                "nombre": "Unidad 5",
+                                "CTE": "Nuevitas"
+                            },
+                            {
+                                "nombre": "Unidad 2",
+                                "CTE": "Felton"
+                            },
+                            {
+                                "nombre": "Unidad 3",
+                                "CTE": "Rente"
+                            }
+                        ],
+                        "mantenimiento":[
+                            {
+                                "nombre": "Unidad 2",
+                                "CTE": "Santa Cruz"
+                            },
+                            {
+                                "nombre": "Unidad 5",
+                                "CTE": "Rente"
+                            },
+                            {
+                                "nombre": "Unidad 4",
+                                "CTE": "Cienfuegos"
+                            }
+                        ],
+                        "no_servicio": [
+                            {
+                                "cantidad": 43,
+                                "tipo": "Centrales de generacion distribuida",
+                                "razon": "Falta de combustible",
+                                "afectacion": 606
+                            }
+                        ]
+                    }
+                },
+                "pico": {
+                    "estimacion": [{
+                        "desc": "entrada de motores de generacion distribuida",
+                        "razon": "se encuentran fuera por combustible",
+                        "cantidad_mw": 60
+                    },
+                    {
+                        "dec": "entrada de seis motores de la patana de Melones",
+                        "razon": null,
+                        "cantidad_mw": 102    
+                    }
+                ]
+                },
+                "max_afect_dia": {
+                    "cantidad_mw": 1278,
+                    "hora": "19:30",
+                    "desc": "coincidente con la hora pico"
+                },
+                "dia_anterior": {
+                    "desc": "se afecto el servicio por deficit de capacidad de generacion",
+                    "horas": 24,
+                    "hora_rest": null
+                }
+            }
+        },{
+            "sen_info": {
+                "main_info": {
+                    "fecha": "16-10-2024",
+                    "dia": "miercoles",
+                    "url": "http://www.cubadebate.cu/noticias/2024/10/16/une-pronostica-una-afectacion-de-1445-mw-para-el-horario-pico-nocturno/"
+                },
+                "estimacion": {
+                    "horario": "noche",
+                    "disponibilidad": 2005,
+                    "demanda_max": 3380,
+                    "deficit": 1375,
+                    "pronostico": {
+                        "afectacion": 1445
+                    }
+                },
+                "info_horarios": {
+                    "mañana": {
+                        "disponibilidad": 1780,
+                        "demanda": 2660,
+                        "totalidad": true
+                    },
+                    "mediodia": {
+                        "pronostico": {
+                            "afectacion": 1100
+                        }
+                    }
+                },
+                "termoelectricas": {
+                    "lim_gen_term": 407,
+                    "fuera": {
+                        "averias": [
+                            {
+                                "nombre": "Unidad 5",
+                                "CTE": "Nuevitas"
+                            },
+                            {
+                                "nombre": "Unidad 2",
+                                "CTE": "Felton"
+                            },
+                            {
+                                "nombre": "Unidad 1",
+                                "CTE": "Santa Cruz"
+                            },
+                            {
+                                "nombre": "Unidad 3",
+                                "CTE": "Rente"
+                            }
+                        ],
+                        "mantenimiento":[
+                            {
+                                "nombre": "Unidad 2",
+                                "CTE": "Santa Cruz"
+                            },
+                            {
+                                "nombre": "Unidad 5",
+                                "CTE": "Rente"
+                            },
+                            {
+                                "nombre": "Unidad 4",
+                                "CTE": "Cienfuegos"
+                            }
+                        ],
+                        "no_servicio": [
+                            {
+                                "cantidad": 37,
+                                "tipo": "Centrales de generacion distribuida",
+                                "razon": "Falta de combustible",
+                                "afectacion": 464
+                            }
+                        ]
+                    }
+                },
+                "pico": {
+                    "estimacion": {
+                        "desc": "entrada de unidades de generación térmica",
+                        "razon": null,
+                        "cantidad_mw": 225
+                    }
+                },
+                "max_afect_dia": {
+                    "cantidad_mw": 1641,
+                    "hora": "19:10",
+                    "desc": "no coincidente con la hora pico"
+                },
+                "dia_anterior": {
+                    "desc": "se afecto el servicio por deficit de capacidad de generacion",
+                    "horas": 24,
+                    "hora_rest": null
+                }
+            }
+        },
+        {
+            "sen_info": {
+                "main_info": {
+                    "fecha": "17-10-2024",
+                    "dia": "jueves",
+                    "url": "http://www.cubadebate.cu/noticias/2024/10/17/une-preve-afectaciones-durante-horario-diurno-y-afectacion-de-1-678-mw-en-pico-nocturno-este-jueves/"
+                },
+                "estimacion": {
+                    "horario": "noche",
+                    "disponibilidad": 1692,
+                    "demanda_max": 3300,
+                    "deficit": 1608,
+                    "pronostico": {
+                        "afectacion": 1678
+                    }
+                },
+                "info_horarios": {
+                    "mañana": {
+                        "disponibilidad": 1600,
+                        "demanda": 2600,
+                        "totalidad": true
+                    },
+                    "mediodia": {
+                        "pronostico": {
+                            "afectacion": 1400
+                        }
+                    }
+                },
+                "termoelectricas": {
+                    "lim_gen_term":441,
+                    "fuera": {
+                        "averias": [
+                            {
+                                "nombre": "Unidad 5",
+                                "CTE": "Nuevitas"
+                            },
+                            {
+                                "nombre": "Unidad 2",
+                                "CTE": "Felton"
+                            },
+                            {
+                                "nombre": "Unidad 4",
+                                "CTE": "Energas Varadero"
+                            },
+                            {
+                                "nombre": "Unidad 3",
+                                "CTE": "Renté"
+                            }
+                        ],
+                        "mantenimiento":[
+                            {
+                                "nombre": "Unidad 2",
+                                "CTE": "Santa Cruz"
+                            },
+                            {
+                                "nombre": "Unidad 5",
+                                "CTE": "Rente"
+                            },
+                            {
+                                "nombre": "Unidad 4",
+                                "CTE": "Cienfuegos"
+                            }
+                        ],
+                        "no_servicio": [
+                            {
+                                "cantidad": 50,
+                                "tipo": "Centrales de generacion distribuida",
+                                "razon": "Falta de combustible",
+                                "afectacion": 799
+                            }
+                        ]
+                    }
+                },
+                "pico": {
+                    "estimacion": {
+                        "desc": "entrada de unidades de generación térmica",
+                        "razon": null,
+                        "cantidad_mw": 92
+                    }
+                },
+                "max_afect_dia": {
+                    "cantidad_mw": 1589,
+                    "hora": "19:20",
+                    "desc": "coincidente con la hora pico, superor a lo planifiado por la no entrada de la Unidad 5 de la CTE Diez de Octubre y la Undad 3 de la CTE Antonio Maceo "
+                },
+                "dia_anterior": {
+                    "desc": "se afecto el servicio por deficit de capacidad de generacion",
+                    "horas": 24,
+                    "hora_rest": null
+                }
+            }
         }
-    
-]
+
+    ]
