@@ -1,0 +1,43 @@
+{
+    "zones_with_problems": ["west" , "middle", "east"], 
+    "date": "2024-07-07",
+    "url": " http://www.cubadebate.cu/noticias/2024/10/07/union-electrica-pronostica-deficit-de-1150-mw-para-el-horario-pico-nocturno-2/ ", 
+    "prediction": {
+        "availability": "2220",  
+        "demand_max": "3300",
+        "impact": "1150",
+        "deficit": "1080",
+        "backup": null
+    },
+    "morning_info": {
+        "time": "07:00", 
+        "availability": "2140", 
+        "demand": "2450", 
+        "deficit": "380" 
+    }, 
+    "plants": [
+        {
+            "broken": {
+                "MG": [5, 8],
+                "LR": [2]               
+            },
+            "maintenance": {
+                "EG": [2],
+                "AM": [5]
+            },
+            "limitation": "383"
+    } 
+],
+    "distributed": {
+        "motors_with_problems": "43",
+        "total_impact": "344",
+        "combustible_problem": "274",
+        "snips_with_problems": "1",
+        "motors_impact": "70"
+    },
+    "impact": {
+        "total_hours": "24",
+        "max": "1349",
+        "max_hour": "18:10"
+    }
+}

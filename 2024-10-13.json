@@ -1,0 +1,43 @@
+{
+    "zones_with_problems": ["west" , "middle", "east"], 
+    "date": "2024-10-13",
+    "url": " http://www.cubadebate.cu/noticias/2024/10/13/union-electrica-estima-afectacion-de-1300-mw-en-pico-nocturno/", 
+    "prediction": {
+        "availability": "2070",  
+        "demand_max": "3300",
+        "impact": "1300",
+        "deficit": "1230",
+        "backup": null
+    },
+    "morning_info": {
+        "time": "07:00", 
+        "availability": "1900", 
+        "demand": "2580", 
+        "deficit": "660" 
+    }, 
+    "plants": [
+        {
+            "broken":{
+                "DO": [5],
+                "LR": [2]
+            },
+            "maintenance": {
+                "AM": [5],
+                "EG": [2]
+            },
+            "limitation": "540"
+    } 
+],
+    "distributed": {
+        "motors_with_problems": "46",
+        "total_impact": "558",
+        "combustible_problem": "350",
+        "snips_with_problems": "2",
+        "motors_impact": "208"
+    },
+    "impact": {
+        "total_hours": null,
+        "max": "1278",
+        "max_hour": "19:30"
+    }
+}

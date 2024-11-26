@@ -1,0 +1,43 @@
+{
+    "zones_with_problems": ["west" , "middle", "east"], 
+    "date": "2024-10-11",
+    "url": "http://www.cubadebate.cu/noticias/2024/10/11/union-electrica-pronostica-una-afectacion-de-1245-mw-en-el-pico-nocturno-de-este-viernes/", 
+    "prediction": {
+        "availability": "2175",  
+        "demand_max": "3350",
+        "impact": "1245",
+        "deficit": "1175",
+        "backup": null
+    },
+    "morning_info": {
+        "time": "07:00", 
+        "availability": "1910", 
+        "demand": "2520", 
+        "deficit": "713" 
+    }, 
+    "plants": [
+        {
+            "broken": {
+                "MG": [8],
+                "LR": [2]
+            },
+            "maintenance": {
+                "EG": [2],
+                "AM": [5]
+            },
+            "limitation": "604"
+    } 
+],
+    "distributed": {
+        "motors_with_problems": "43",
+        "total_impact": "550",
+        "combustible_problem": "293",
+        "snips_with_problems": "2",
+        "motors_impact": "257"
+    },
+    "impact": {
+        "total_hours": "24",
+        "max": "1153",
+        "max_hour": "19:50"
+    }
+}
