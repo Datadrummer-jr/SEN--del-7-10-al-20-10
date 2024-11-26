@@ -1,0 +1,40 @@
+{
+    "zones_with_problems": ["west" , "middle", "east"], 
+    "date": "20241020",
+    "url": " http://www.cubadebate.cu/noticias/2024/10/20/cuba-actualizacion-permanente-sobre-el-restablecimiento-del-sistema-electrico/",
+    "prediction": {
+        "availability": null,  
+        "demand_max": null,
+        "impact": null,
+        "deficit": null,
+        "backup": null 
+    },
+    "morning_info": {
+        "time": null, 
+        "availability": null, 
+        "demand": null, 
+        "deficit": null 
+    }, 
+    "plants": [
+        {
+            "broken":{
+            },
+            "maintenance": {
+            },
+            "limitation": null
+    } 
+],
+    "distributed": {
+        "motors_with_problems": null,
+        "total_impact": null,
+        "combustible_problem": null,
+        "snips_with_problems": null,
+        "motors_impact": null
+    },
+    "impact": {
+        "total_hours": null,
+        "max": null,
+        "max_hour": null
+    },
+    "nota": "De este día no hay datos por apagón general por colapso del Sistema Electroenérgetico Nacional. "
+}
