@@ -1,6 +1,6 @@
 {
     "zones_with_problems": ["west" , "middle", "east"], 
-    "date": "2024-07-07",
+    "date": "20240707",
     "url": " http://www.cubadebate.cu/noticias/2024/10/07/union-electrica-pronostica-deficit-de-1150-mw-para-el-horario-pico-nocturno-2/ ", 
     "prediction": {
         "availability": "2220",  
@@ -10,7 +10,7 @@
         "backup": null
     },
     "morning_info": {
-        "time": "07:00", 
+        "time": "0700", 
         "availability": "2140", 
         "demand": "2450", 
         "deficit": "380" 
@@ -38,6 +38,6 @@
     "impact": {
         "total_hours": "24",
         "max": "1349",
-        "max_hour": "18:10"
+        "max_hour": "1810"
     }
 }

@@ -1,6 +1,6 @@
 {
     "zones_with_problems": ["west" , "middle", "east"], 
-    "date": "2024-10-14",
+    "date": "20241014",
     "url": " http://www.cubadebate.cu/noticias/2024/10/14/afectacion-electrica-para-el-pico-nocturno-de-este-lunes-superara-los-1300-mw-informa-la-une/", 
     "prediction": {
         "availability": "2060",  
@@ -10,7 +10,7 @@
         "backup": null
     },
     "morning_info": {
-        "time": "07:00", 
+        "time": "0700", 
         "availability": "1950", 
         "demand": "2600", 
         "deficit": "697" 
@@ -41,6 +41,6 @@
     "impact": {
         "total_hours": "24",
         "max": "1346",
-        "max_hour": "18:10"
+        "max_hour": "1810"
     }
 }

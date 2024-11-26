@@ -1,6 +1,6 @@
 {
     "zones_with_problems": ["west" , "middle", "east"], 
-    "date": "2024-10-12",
+    "date": "20241012",
     "url": "http://www.cubadebate.cu/noticias/2024/10/12/union-electrica-estima-afectacion-de-1-220-mw-en-horario-pico-este-sabado/", 
     "prediction": {
         "availability": "2240",  
@@ -10,7 +10,7 @@
         "backup": null
     },
     "morning_info": {
-        "time": "07:00", 
+        "time": "0700", 
         "availability": "2250", 
         "demand": "2260", 
         "deficit": "81" 
@@ -37,6 +37,6 @@
     "impact": {
         "total_hours": "24",
         "max": "1467",
-        "max_hour": "19:50"
+        "max_hour": "1950"
     }
 }

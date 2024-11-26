@@ -1,6 +1,6 @@
 {
     "zones_with_problems": ["west" , "middle", "east"], 
-    "date": "2024-10-10",
+    "date": "20241010",
     "url": "http://www.cubadebate.cu/noticias/2024/10/10/la-union-electrica-pronostica-una-afectacion-de-1235-mw-en-el-pico-nocturno-de-este-jueves/", 
     "prediction": {
         "availability": "2185",  
@@ -10,7 +10,7 @@
         "backup": null
     },
     "morning_info": {
-        "time": "07:00", 
+        "time": "0700", 
         "availability": "2094", 
         "demand": "2400", 
         "deficit": "320" 
@@ -37,6 +37,6 @@
     "impact": {
         "total_hours": "24",
         "max": "1269",
-        "max_hour": "19:40"
+        "max_hour": "1940"
     }
 }
